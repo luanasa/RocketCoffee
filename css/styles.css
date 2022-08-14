@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    background-color: #000000;
+    font-family: 'Manrope', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#menu {
+    display: none;
+}
+
+#menu ul li {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+
+    margin-top: 1rem;
+    
+}
+
+#menu ul {
+    border: 1px solid #29292E;
+    margin-top: 2rem;
+}
+
+#menu a{
+
+border-bottom: 1px solid #29292E;
+padding-bottom: 1rem;
+margin-top: -1rem;
+color: #A8A8B3;
+
+}
+
+#menu a:hover {
+    color: #E1E1E6;
+}
+
+#open {
+    cursor: pointer;
+}
+
+#closeIcon {
+    display: none;
+}
+
+#header {
+    display: block;
+}
+
+nav .mobileNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-left: 25px;
+    margin-right: 26px;
+    margin-top: 2rem;
+}
+
+header p {
+    font-size: 30px;
+    line-height: 40.98px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-top: 88.5px;
+    margin-left: 27px;
+    margin-right: 28px;
+    text-align: center;
+}
+
+header .headerButton {
+    border: 1px solid #8257E5;
+    background-color: #000000;
+    border-radius: 6px;
+    width: 174.12px;
+    height: 35px;
+
+    align-items: center;
+    padding: 10px 30px;
+    margin-top: 50px;
+    margin-right: 127px;
+    margin-left: 120px;
+}
+
+.headerButton a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+    color: #FFFFFF;
+
+    font-weight: 800;
+    font-size: 9px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+}
+
+body h1{
+    font-size: 45px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 68px;
+    letter-spacing: -0.03em;
+
+    margin-right: 66px;
+    margin-left: 66px;
+    margin-bottom: -6px;
+
+}
+
+body span {
+    font-size: 45px;
+    text-shadow: -1px -1px 0 #8257E5, 1px -1px 0 #8257E5, -1px 1px 0 #8257E5, 1px 1px 0 #8257E5;
+    text-align: center;
+    line-height: 68px;
+    letter-spacing: -0.03em;
+    margin-left: 42px;
+    margin-right: 40px;
+    
+}
+
+@media (min-width: 700px) { 
+    #menu {
+        display: block;
+    }
+ }
