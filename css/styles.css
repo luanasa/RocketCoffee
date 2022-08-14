@@ -122,13 +122,128 @@ body span {
     text-align: center;
     line-height: 68px;
     letter-spacing: -0.03em;
-    margin-left: 42px;
+    margin-left: 70px;
     margin-right: 40px;
     
 }
 
+@media (max-width: 700px) { 
+    .deskNav {
+        display: none;
+    }
+
+    .imgFooterDesktop{
+        display: none;
+    }
+}
+
 @media (min-width: 700px) { 
     #menu {
-        display: block;
+        display: none;
     }
+
+    #open {
+        display: none;
+    }
+
+    #closeIcon {
+        display: none;
+    }
+
+    #logoMobile {
+        display: none;
+    }
+
+    #header {
+        display: none;
+    }
+
+    .background{
+        width: 320px;
+        height: 321px;
+        background: #996DFF;
+        filter: blur(200px);
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: -10;
+      }
+      
+      
+      .background-footer{
+        width: 320px;
+        height: 321px;
+        background: #996DFF;
+        filter: blur(250px);
+        position: absolute;
+        left: 0;
+        z-index: -10;
+        bottom: -16rem;
+      }
+
+      .deskNav{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        margin-right: 250px;
+        margin-left: 280px;
+      }
+
+      .menuDesktop ul li{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 2rem;
+      }
+
+      .menuDesktop li a {
+        color: #FFFFFF;
+        font-weight: 400;
+      }
+
+      .coffeeBtn {
+        border: 1px solid #8257E5;
+        background-color: transparent;
+        border-radius: 6px;
+        width: 174.12px;
+        height: 35px;
+    
+        align-items: center;
+        padding: 10px 30px;
+    }
+    
+    .coffeeBtn a {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-decoration: none;
+        color: #FFFFFF;
+    
+        font-weight: 700;
+        font-size: 9px;
+        line-height: 15px;
+        letter-spacing: 0.02em;
+    }
+
+    .imgFooterMobile {
+        display: none;
+    }
+
+    body h1{
+        font-size: 80px;
+        margin-top: 55px;
+        margin-bottom: 2rem;
+    }
+
+    body span {
+        font-size: 80px;
+        margin-left: 31rem;
+    }
+
+   .imgFooterDesktop {
+    margin-left: 200px;
+   }
  }

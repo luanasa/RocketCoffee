@@ -7,17 +7,19 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
     <title>RocketCoffee ☕</title>
 </head>
 <body>
-    <nav class="mobile">
+    <nav>
         <div class="mobileNav">
-            <img src="./assets/logo mobile.svg" alt="logo in purple and white"> 
+            <img id="logoMobile" src="./assets/logo mobile.svg" alt="logo in purple and white"> 
             <img id="open" src="./assets/Menu Hambúrguer.svg" alt="Menu hamburguer icon" onclick="openMenu('menu')">
             <img id="closeIcon" src="./assets/close.svg" alt="Menu close icon" onclick="closeMenu('menu')">
         </div>
 
+        
         <div id="menu">
             <ul>
                 <li>
@@ -29,7 +31,36 @@
                 </li>
             </ul>
         </div>
+
+        <div class="deskNav">
+            <img src="./assets/Logo desk.svg" alt="logo in purple"> 
+
+            <div class="menuDesktop">
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                        <a href="#">Menu</a>
+                        <a href="#">Recompensas</a>
+                        <a href="#">Gift Cards</a>
+                        <a href="#">Lojas</a>
+                    </li>
+                </ul>
+            </div>
+
+            <button class="coffeeBtn">
+                <a href="#">PEGAR MEU CAFÉ</a>
+            </button>
+
+        </div>
+
     </nav>
+
+    <div class="background">
+        <div></div>
+      </div>
+      <div class="background-footer">
+        <div></div>
+      </div>
 
     <header id="header">
         <p>O café que fará seu código decolar para o próximo nível.</p>
@@ -45,7 +76,8 @@
     <h1>Great Coffee</h1>
     <span> &lt;Great Code/&gt;</span>
 
-    <img src="./assets/Img Coffee.png" alt="">
+    <img class="imgFooterMobile" src="./assets/Img Coffee.png" alt="">
+    <img class="imgFooterDesktop" src="./assets/Img Coffee desk.png" alt="">
 
     <script src="./js/script.js"></script>
 </body>
