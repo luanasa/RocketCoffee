@@ -135,6 +135,22 @@ body span {
     .imgFooterDesktop{
         display: none;
     }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main h1 {
+        margin-left: 3.4rem;
+    }
+
+    .main span {
+        margin-left: 3rem;
+    }
+
 }
 
 @media (min-width: 700px) { 
@@ -232,18 +248,18 @@ body span {
         display: none;
     }
 
-    body h1{
-        font-size: 80px;
-        margin-top: 55px;
-        margin-bottom: 2rem;
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
-    body span {
+    .main h1{
         font-size: 80px;
-        margin-left: 31rem;
     }
 
-   .imgFooterDesktop {
-    margin-left: 200px;
-   }
+    .main span {
+        font-size: 80px;
+    }
  }
